@@ -41,7 +41,7 @@ if __name__ == '__main__':
         '''))
 
     parser.add_argument('-d', '--domain', required=True, help='target Domain')
-    parser.add_argument('-w', '--wordlist', default='sub.txt', help='your wordlist  (default: sub.txt)')
+    parser.add_argument('-w', '--wordlist', help='your wordlist')
     parser.add_argument('-t', '--threads', default=15, type=int, help='number of threads. (default=15)')
     args = parser.parse_args()
 
