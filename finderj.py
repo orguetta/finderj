@@ -37,7 +37,7 @@ if __name__ == '__main__':
         description='finding subdomains',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=textwrap.dedent('''Examples:
-        finderj.py -d example.com -w <your_wordlist> -t <Number_of_Threads>
+        python3 finderj.py -d example.com -w <your_wordlist> -t <Number_of_Threads>
         '''))
 
     parser.add_argument('-d', '--domain', required=True, help='target Domain')
